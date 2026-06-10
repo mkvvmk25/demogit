@@ -62,7 +62,7 @@ module.exports.signup = async (req, res, next) => {
 
 		//
 		res.json({
-			status: "success",
+			status: "success updated 123",
 			data: uc[0],
 		});
 	} catch (err) {
